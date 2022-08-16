@@ -1,0 +1,29 @@
+html
+{
+    background-color: brown;
+}
+h1
+{
+    font-size: 60px;
+    color:white;
+    text-align: center;
+
+}
+body
+{
+    background-color: black;
+    color: white;
+    width: 70%;
+    margin:auto;
+    padding: 50px;
+    font-family: 'Roboto';
+}
+.trieda
+{
+    text-align: justify;
+}
+#idecko
+{
+    text-align: center;
+    text-decoration:underline;
+}
