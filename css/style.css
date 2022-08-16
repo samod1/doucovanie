@@ -1,0 +1,33 @@
+/*STYLE*/
+
+html
+{
+    background-color: lightgrey;
+}
+
+body
+{
+    background-color: azure;
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+    font-family: 'Roboto';
+}
+.nazov_triedy
+{
+    text-align: center;
+    font-size: 55px;
+    
+}
+
+h1
+{
+    font-size: 80px;
+    text-align:center;
+    line-height: normal;
+}
+
+h1,h3
+{
+    color: blueviolet;
+}
