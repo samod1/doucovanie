@@ -27,3 +27,9 @@ body
     text-align: center;
     text-decoration:underline;
 }
+ul
+{
+    list-style-type: square;
+    font-size: 15px;
+    color:darkred;
+}
