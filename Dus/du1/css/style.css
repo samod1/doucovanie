@@ -1,0 +1,29 @@
+html
+{
+    background-color: antiquewhite;
+}
+
+body
+{
+    background-color: aquamarine;
+    width: 70%;
+    margin: auto;
+    padding: 10 px;
+    font-family: 'Roboto';
+}
+
+ul
+{
+    list-style-type: square;
+}
+
+a:hover
+{
+    color: brown;
+    font-size: 20px;
+}
+
+.text-center
+{
+    text-align: center;
+}
