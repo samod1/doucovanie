@@ -38,20 +38,22 @@
         <h2>Obrazky</h2>
         <img src="assets/iStock-1092526842.jpg" alt="modre pozadie s bielymi ciarami">
         
+
+        <!--Tabulky-->
         <h2>Tabulky</h2>
-        <table>
-            <tr>
-                <th>ID</th>
+        <table> <!-- Tabulka -->
+            <tr> <!-- tr = table row/ jeden riadok tabulky-->
+                <th>ID</th> <!-- th = table heading/ hlavicka tabulky-->
                 <th>Meno</th>
                 <th>Priezvisko</th>
                 <th>Bydlisko</th>
-                <th colspan="3">Akcia</th>
+                <th colspan="3">Akcia</th> <!-- parameter colspan/rowspan sluzi na spajanie buniek -->
                 <th rowspan="2">Telefonne cislo</th>
             </tr>
             
             <tr>
                 <td>1</td>
-                <td>Samuel</td>
+                <td>Samuel</td> <!-- td = table data/ data v tabulke.-->
                 <td>Domin</td>
                 <td>Majcichov</td>
                 <td>Vymazat</td>
@@ -89,9 +91,13 @@
                 <td>Majcichov</td>
             </tr>
         </table>
+
         <h2>formulare</h2>
         <form method="get">
-            <label for="meno" placeholder="Vase meno">Meno</label>
+            <!-- tag formular je parovy tag medzi, ktore mozes vlozit input resp. ine. dalsi parameter je method su dve metody get/ post. 
+                Dalsim parametrom je action= tento parameter odkazuje na subor, kde sa nasledne spracovavaju udaje z formularu.
+            Parameter autocomplete sluzi na autodoplnanie pri tag form mozeme tomuto parametru nastavit on/off -->
+            <label for="meno" placeholder="Vase meno">Meno</label> <!-- label sluzi ako popisok daneho pola -->
             <input type="text" id="meno">
             <label for="sex">Pohlavie</label>
             <select id="sex">
