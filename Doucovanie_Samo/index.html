@@ -1,0 +1,121 @@
+<html lang="sk-SK">
+    <head>
+        <!--Definicia znakov-->
+        <meta charset="utf-8">
+        <!--Definicia stylov-->
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <!--Title - zobrazuje sa na karte ako nazov-->
+        <title>Doucovanie HTML a CSS</title>
+    </head>
+    <body>
+        <!--Nadpis <h1> a text <p>-->
+        <h1>Cvicenie prve</h1>
+        <!--Class - trieda - nastavenia svojich stylov-->
+        <p class="trieda">Lorem ipsum dolor sit amet, 
+             consectetur adipiscing elit.
+             Ut rutrum eu ligula non feugiat.
+             Integer condimentum aliquam tortor,
+             in condimentum justo blandit nec. 
+             Ut tempus, mi vitae tempor vestibulum, 
+             orci libero ultrices mauris, sed condimentum neque nisi non urna. 
+             Suspendisse accumsan pellentesque ligula et luctus. 
+             Ut eros leo, porta tincidunt euismod id, 
+             aliquet vitae metus. Nulla facilisi. 
+             Mauris maximus ante sed semper molestie. 
+             Ut lobortis quis diam vel congue. 
+             Quisque malesuada consectetur</p>
+        <!--ID - idecko - selector, na ktory sa da odkazat v linkoch, styloch,...-->
+        <h2 id="idecko">Dalsia uloha</h2>
+        <!--vztvorenie linku-->
+        <a href="#idecko">Link na ulohu 2</a><br>
+        <a href="https://www.facebook.com">Link na FB</a>
+        <!--Zoznamy-->
+        <h2>Dalsia uloha</h2>
+        <h3>Dary</h3>
+        <!--Neorganizovane-->
+        <ul>
+            <li>auto</li>
+            <li>televizor</li>
+            <li>roboticky vysavac</li>
+            <li>kavovar</li>
+            <li>roboticku kosacku</li>
+            <li>garzonka</li>
+            <li>fajku</li>
+        </ul>
+        <!--Organizovane - poradove-->
+        <h3>Hostia</h3>
+        <ol>
+            <li>Rodicia z oboch stran</li>
+            <li>Kamarati</li>
+        </ol>
+
+    <h2>Obrazky</h2>
+    <img src="assets/accfbf4a2372bd1e1fe9eed657c87b65.jpg" alt="Medvedikovia so srdieckom">
+    <h2>Tabulky</h2>
+    <!--Vytvorenie tabulky-->
+    <table>
+        <!--table row/Riadok tabulky-->
+        <tr>
+            <!--table heading/Nadpis tabulky-->
+            <th>ID</th>
+            <!--table data/data v tabulke-->
+            <td>Meno</td>
+            <td>Priezvisko</td>
+            <td>Bydlisko</td>
+            <!--Rozdelenie stlpcov-->
+            <th colspan="3">Akcia</th>
+            <!--Rozdelenie riadkov-->
+            <th rowspan="2">Telefonne cislo</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Martin</td>
+            <td>Pukanec</td>
+            <td>Trnava</td>
+            <!--Rozdelenie riadkov - vypisanie-->
+            <td>Vymazat</td>
+            <td>Detail</td>
+            <td>Upravit</td>
+            <!--Rozdelenie stlpcov - vypisanie-->
+            <td>+421918143204</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Martin</td>
+            <td>Pukanec</td>
+            <td>Trnava</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Martin</td>
+            <td>Pukanec</td>
+            <td>Trnava</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Martin</td>
+            <td>Pukanec</td>
+            <td>Trnava</td>
+        </tr>
+    </table>
+    <h2>Formulare</h2>
+    <form method="get">
+        <label for="meno" placeholder="Vase meno">Meno</label><!-- label sluzi ako popisok daneho pola -->
+        <!-- tag formular je parovy tag medzi, ktore mozes vlozit input resp. ine. dalsi parameter je method su dve metody get/ post. 
+                Dalsim parametrom je action= tento parameter odkazuje na subor, kde sa nasledne spracovavaju udaje z formularu.
+            Parameter autocomplete sluzi na autodoplnanie pri tag form mozeme tomuto parametru nastavit on/off -->
+        <input type="text" id="meno">
+        <label for="sex">Pohlavie</label>
+        <select id="sex">
+            <option value="1">Muz</option>
+            <option value="2">Zena</option>
+            <option value="3">Ine</option>
+        </select>
+        <label>napis hocico</label>
+        <textarea rows="10" cols="10"></textarea>
+        <input type="reset">
+        <input type="submit">
+    </body>
+</html>           
